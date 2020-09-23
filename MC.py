@@ -12,7 +12,7 @@ def is_in():
         return 0
 
 N = 0 # nombre de points à l'intérieur du disque
-f = 10000
+f = 1000000
 for n in range(f):
     N += is_in()
 print("PI est à peu près égal à {}".format(4 * N / f))
